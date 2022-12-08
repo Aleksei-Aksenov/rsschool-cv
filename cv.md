@@ -59,7 +59,7 @@ if __name__ == '__main__':
 ***
 
 ### Work experience:
-#### [FoodGram продуктовый помощник](https://github.com/Aleksei-Aksenov/foodgram-project-react)
+#### [FoodGram grocery assistant](https://github.com/Aleksei-Aksenov/foodgram-project-react)
 
 #### **Description:**
 
