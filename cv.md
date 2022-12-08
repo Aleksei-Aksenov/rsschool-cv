@@ -1,4 +1,4 @@
-![](https://github.com/Aleksei-Aksenov/rsschool-cv/blob/gh-pages/media/Aksenov1.jpeg)
+![](https://github.com/Aleksei-Aksenov/rsschool-cv/blob/gh-pages/media/Aksenov1.jpg)
 
 # Алексей Аксёнов
 
