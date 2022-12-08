@@ -1,3 +1,5 @@
+![](https://github.com/Aleksei-Aksenov/rsschool-cv/blob/gh-pages/media/Aksenov1.jpeg)
+
 # Алексей Аксёнов
 
 ## Junior Frontend Developer
@@ -80,3 +82,5 @@ On this service, users will be able to publish recipes, subscribe to publication
 ### Languages:
 * Russian - Native
 * English - B1
+
+***
