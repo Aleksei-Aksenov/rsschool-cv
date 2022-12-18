@@ -1,15 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV Aksenov</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="global">
+    <div class="flex-container">
+      <div class="flex-item item-1">
+        <div class="flex-item item-11">
+          <img src="assets/img/Aksenov1.jpg" alt="Фотографическая карта Алексея Аксёнова.">
+        </div>
+        <div class="flex-item item-12">1.2</div>
+      </div>
+      <div class="flex-item item-2">
+        <div class="flex-item item-21">Contact information:</div>
+        <div class="flex-item item-22">
+            <ul>
+                <li>Phone: +7 917 4916160</li>
+                <li>E-mail: Aksenov-89@yandex.ru</li>
+                <li>Telegram: @Aleksei_Aksenov</li>
+                <li>Discord:Aleksei#9605</li>
+              </ul>
+        </div>
+      </div>
+      <div class="flex-item item-3">
+        <div class="flex-item item-31">About myself:</div>
+        <div class="flex-item item-32">I'm 32 years. I have extensive experience in the oil refining industry. I have worked at an oil refinery for 10 years, until one day I realized that this job brings me good income, but not satisfaction. I wanted to do something in which I would have desire to develop and become better day by day. That's why I'm here. Coding is what really turns me on. My goal is to become a full stack developer. I started the path to this goal in 2022 by enrolling in back-end development courses, which I had successfully been completed after 9 months of study. Now I am actively studying front-end development. I understand that you should not expect quick results, but as you know, only the walking one will master the road.</div>
+      </div>
+      <div class="flex-item item-4">
+        <div class="flex-item item-41">Skills and Proficiency:</div>
+        <div class="flex-item item-42">
+            <ul>
+                <li>Python (including Django framework)</li>
+                <li>Git/GitHub</li>
+                <li>VS Code, IntelliJ IDEA</li>
+                <li>Adobe Photoshop</li>
+                <li>Windows, Linux</li>
+              </ul>
+        </div>
+      </div>
+      <div class="flex-item item-5">
+        <div class="flex-item item-51">Code example:</div>
+        <div class="flex-item item-52">
+          <pre>
+            <code>
+    def is_palindrome(line: str) -> bool:
+    """A function that checks if the given phrase is a palindrome."""
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    line = line.replace('!', '')
+    line = line.replace(':', '')
+    line = line.replace(' ', '')
+    line = line.replace(',', '')
+    line = line.replace('.', '')
+    line = line.lower()
+    check = line[::-1]
+    return check == line
 
-<body>
-    My CV
-</body>
+def read_input() -> str:
+    """Function for processing incoming data."""
+    return input().strip()
 
+def main():
+    """The main logic of the program."""
+    return(is_palindrome(read_input()))
+
+if __name__ == '__main__':
+    print(main())
+            </code>
+          </pre>
+        </div>
+      </div>
+      <div class="flex-item item-6">
+        <div class="flex-item item-61">Work experience:</div>
+        <div class="flex-item item-62">
+          <a href="https://github.com/Aleksei-Aksenov/foodgram-project-react" style="color: white">FoodGram grocery assistant</a>
+          <br>
+Description:
+
+On this service, users will be able to publish recipes, subscribe to publications of other users, add favorite recipes to Favorites, and before going to the store, download a summary list of products needed to prepare selected dishes.
+<br>
+The application works on the following technologies:
+<br>
+<img src="https://img.shields.io/badge/django-blue?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/rest-framework-blue?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/postgres-blue?style=for-the-badge&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/react-blue?style=for-the-badge&logo=React&logoColor=white"/>
+
+        </div>
+      </div>
+      <div class="flex-item item-7">
+        <div class="flex-item item-71">Education and courses:</div>
+        <div class="flex-item item-72">
+          <ol>
+            <li>Ufa State Oil Technical University
+              <ul>
+                <li>Oil and gas processing equipment</li>
+              </ul>
+            </li>
+            <li>Yandex Practicum
+              <ul>
+                <li>Python Developer Training Course</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="flex-item item-8">
+        <div class="flex-item item-81">Languages:</div>
+        <div class="flex-item item-82">
+          <ul>
+            <li>Russian - Native</li>
+            <li>English - B1</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

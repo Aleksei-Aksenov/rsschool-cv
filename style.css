@@ -1,3 +1,171 @@
-body {
-    background: yellow;
+/* Base styles */
+.global {
+    background-color: #241e1e;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    border: 1px solid #7f00ff;
+  }
+  
+  .flex-item {
+    padding: 10px;
+    font: 16px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .item-1 {
+    background: #2e2a2a;
+    display: flex;
+  }
+
+  .item-11 {
+    border: 1px solid #e0e0e0;
+    
+  }
+  .item-12 {
+    border: 1px solid #e0e0e0;
+    flex-grow: 3;
+    width: 60%;
+  }
+  
+  .item-2 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-21 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-22 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-3 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-31 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-32 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-4 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-41 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-42 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-5 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-51 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-52 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-6 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-61 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-62 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-7 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-71 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-72 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+
+  .item-8 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-81 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-82 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  
+  /* Custom styles */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-item {
+    width: calc(100%-5px);
+    margin: 5px;
+    flex-grow: 1;
+  }
+
+  
