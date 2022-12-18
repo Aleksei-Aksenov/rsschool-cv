@@ -1,0 +1,177 @@
+/* Base styles */
+body {
+    background-color: #241e1e;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  
+  .flex-item {
+    padding: 10px;
+    font: 16px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    flex-grow: 1;
+
+    
+  }
+
+  
+  .item-1 {
+    background: #2e2a2a;
+    display: flex;
+  }
+
+  .item-11 {
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-12 {
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-2 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-21 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-22 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-3 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-31 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-32 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-4 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-41 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-42 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-5 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-51 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-52 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-6 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-61 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-62 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  .item-7 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-71 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-72 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+
+  .item-8 {
+    background: #2e2a2a;
+    display: flex;
+  }
+  .item-81 {
+
+    text-align: right;
+    width: 100px;
+    
+  }
+  .item-82 {
+
+    flex-grow: 3;
+    width: 60%;
+    text-align: left;
+  }
+  
+  
+  /* Custom styles */
+
+
+  
